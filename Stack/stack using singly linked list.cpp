@@ -95,7 +95,7 @@ public:
 				//print node
 				cout << temp->data;
 
-				//assign temp link to temp
+				//assign temp next to temp
 				temp = temp->next;
 				if (temp != NULL)
 					cout << "->";
